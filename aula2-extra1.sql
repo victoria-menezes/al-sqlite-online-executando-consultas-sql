@@ -1,0 +1,3 @@
+-- Como analista de banco de dados em uma empresa de varejo, você está trabalhando com a tabela produtos, que contém informações sobre os itens em estoque, incluindo id, nome_produto, e categoria. Para atender a uma solicitação de marketing, você precisa filtrar produtos cujos nomes atendem a critérios específicos de pesquisa. Com base neste cenário, qual consulta SQL utilizando o comando LIKE retornará corretamente os produtos cujo nome começa com 'Caneta'?
+
+select * from produtos where lower(nome_produto) like 'caneta%';
